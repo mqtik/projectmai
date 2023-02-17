@@ -1,0 +1,168 @@
+
+
+.nav {
+    background-color: rgb(73, 78, 78);
+    position: fixed;
+    background-color: rgb(73, 78, 78);
+    width: 100%;
+    
+
+
+}
+
+.navMenu {
+   
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    height: 80px;
+   
+
+}
+
+.btnIcon {
+    display: none;
+}
+
+.menuIcon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+
+}
+
+.mobile{
+    display: none;
+}
+
+.menuBtn {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+
+
+.inputSearch {
+    height: 35px;
+
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.btnSearch {
+
+    font-size: 15px;
+    font-weight: 500;
+    height: 35px;
+    background: none;
+    color: rgb(230, 14, 14);
+    border: 2px solid rgb(230, 14, 14);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.btnSearch:hover {
+       
+    box-shadow: 1px 1px 20px  ;
+}
+
+.form {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+}
+
+.link {
+    display: flex;
+    color: black;
+    font-weight: 500;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+
+
+
+@media (max-width: 890px) {
+    .btnIcon {
+        display: flex;
+        cursor: pointer;
+        margin-right: 30px;
+        background: none;
+        border: none;
+        width: 100%;
+        justify-content: flex-end;
+        
+       
+
+    }
+
+    .menuIcon {
+        display: flex;
+        background-color: rgb(73, 78, 78);
+        flex-direction: column;
+        position: fixed;
+        left: 0;
+        top: 79px;
+        align-items: flex-start;
+        width: 100%;
+
+
+    }
+
+    .mobile{
+        display: flex;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    .btnSearch {
+        margin-right: 30px;
+
+    }
+
+   
+    .inputSearch {
+        height: 35px;
+        width: 80%;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    .form {
+        width: 100%;
+
+
+    }
+
+    ul {
+
+        padding: 10px;
+        margin: 0;
+    }
+
+    .navMenu {
+        justify-content:space-between;
+        background-color: rgb(73, 78, 78);
+        width: 100%;
+        position: fixed;
+        left: 0;
+
+    }
+
+  
+   
+}
